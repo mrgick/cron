@@ -6,4 +6,3 @@ micros:
     primary: true
 
     run: uvicorn app.main:app
-    dev: .venv/bin/uvicorn app.main:app --reload
