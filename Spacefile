@@ -1,0 +1,9 @@
+v: 0
+micros:
+  - name: python-app
+    src: .
+    engine: python3.10
+    primary: true
+
+    run: uvicorn main:app
+    dev: conda activate test3 && uvicorn main:app --reload
