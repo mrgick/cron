@@ -1,6 +1,6 @@
 v: 0
 micros:
-  - name: python-app
+  - name: cron
     src: ./app
     engine: python3.9
     primary: true
