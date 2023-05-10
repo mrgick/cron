@@ -1,9 +1,9 @@
 v: 0
 micros:
   - name: python-app
-    src: .
+    src: ./app
     engine: python3.9
     primary: true
 
-    run: uvicorn app.main:app
-    dev: uvicorn app.main:app --reload
+    run: uvicorn main:app
+    dev: uvicorn main:app --reload
